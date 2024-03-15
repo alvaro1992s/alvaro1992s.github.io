@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../estilosInicio.css">
+    <link rel="shortcut icon" href="icono.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--login-->
+    <div class="loginbox">
+        <img src="../SRDR.png" alt="" class="avatar">
+        <h3>Iniciar Sesión</h3>
+        <form action="">
+            <p>Usuario</p>
+            <input type="text" placeholder="ingresa tu usuario" class="validate" required>
+            <p>Contraseña</p>
+            <input type="password" placeholder="ingresa tu contraseña" class="validate" required>
+            <a class="btn" href="../registrarEmpleados.html" id="ingresar">Ingresar</a>
+            <a href="#">Olvidaste tu contraseña</a><br>
+        </form>
+
+    </div>
+</body>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+</script>
+<script> document.addEventListener('DOMContentLoaded', function () {
+        M.AutoInit();
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.slider');
+        var instances = M.Slider.init(elems, {
+            height: 300
+        }
+        );
+    });
+
+</script>
+
+</html>

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+
+    font-family: arial;
+    background-image: url("../IMA_BLO_AGR_precision-agriculture-increase-productivity_Flying_Drones_Banana_Plant.jpg");
+    background-repeat: no-repeat;
+    }
+
+
+ 
+.loginbox {
+    flex-wrap: wrap;
+    width: 340px;
+    height: 460px;
+    background: #66bb6a;
+    color: rgb(3, 36, 3);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 70px 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 50px);
+}
+
+.h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+}
+ 
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input {
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+}
+
+#ingresar {
+    display: block;
+    width: 50%;
+    margin:20px 70px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: hsla(137, 100%, 1%, 0.537);
+    border-radius: 5px;
+    color: rgb(245, 234, 234);
+    height: 40px;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 40px;
+    color: rgb(12, 0, 0);
+    margin: 30px 76px;
+}
+
+.loginbox a:hover {
+    color: rgb(231, 237, 231);
+}
+
+    
+

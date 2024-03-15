@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar Datos de Recolección</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="shortcut icon" href="../css/imagenes/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="../estilosConsulta.css">
+</head>
+
+<body>
+
+    <!--menu navbar fixed-->
+    <div class="navbar-fixed">
+        <nav class="green darken-4">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo">SRDR</a>
+                <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li> <a href="../registrarDatosdeRecolección.html">Registrar Datos de Empleados</a></li>
+                    <li> <a href="../registrarDatosdeRecolección.html">Registrar Datos de Recolección</a></li>
+                    <li> <a href="../index.html">Cerrar Sesión</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--menu responsive-->
+    <ul class="sidenav" id="menu-responsive">
+        <li><a href="../registrarEmpleados.html">Registrar Datos de Empleados</a></li>
+        <li><a href="../registrarDatosdeRecolección.html">Registrar Datos de Recolección</a></li>
+        <li><a href="../index.html">Cerrar Sesión</a></li>
+    </ul>
+    </div>
+
+    <!--Titulo Consultar Datos de Recolección-->
+
+    <div class="section container">
+
+        <div class="row">
+
+            <div class="col s12 green">
+                <div class="class-content center green">
+                    <h4>CONSULTAR DATOS DE RECOLECCIÓN</h4>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Formulario-->
+        <form class="col s6">
+
+            <div class="row card-panel">
+
+                <div class="input-fiel col s12 m12 l12 card panel">
+                    <input id="txtBusqueda" name="txtBusqueda" type="text" placeholder="123456789" class="validate" required>
+                    <label id="txtBusqueda-label" for="txtBusqueda">Por favor ingresar el número de Cédula para consultar</label>
+                </div>
+
+                <div class="section container">
+
+                    <div class="row">
+
+                        <div class="col s12 m12 l12 green">
+                            <div class="class-content center green">
+                                <h5>FECHAS</h5>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="inpult-field col s12 m6 l6 card-panel">
+                        <input type="date" id="fechaDesde" class="validate" required>
+                        <label for="fecharecoleccion">Fecha de Recolección (Desde)</label>
+                    </div>
+
+                    <div class="inpult-field col s12 m6 l6 card-panel">
+                        <input type="date" id="fechaHasta" class="validate" required>
+                        <label for="fecharecoleccion">Fecha de Recolección (Hasta)</label>
+                    </div>
+
+                    <!--botón-guardar-->
+                    <div style="text-align: center;">
+                        <input class="btn" type="Submit" value="Consultar" id="btn-guardar-consulta">
+                    </div>
+
+
+                </div>
+
+        </form>
+
+    </div>
+
+    </div>
+
+</body>
+
+<!--footer-->
+<footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#">
+            <img src="../SRDR.png" alt="logo_srdr">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>aplicativo web que permitirá registrar y consultar datos de las actividades diarias de la labor de recolección,
+          en las fincas exportadoras de banano y plátano, esto permitirá llevar la estadística de la producción y con
+          dichos datos poder efectuar el pago exacto a los trabajadores.</p>
+        <a href="https://es-la.facebook.com/" target="_blank"><u>Proyecto creado por Álvaro Enríque Martínez
+            Garcia</u></a>
+        <ul>
+          <li><a href="../mapaDelSitio.html"><u>Mapa del Sitio</u></a></li>
+      </div>
+      <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="red-social">
+          <a href="https://es-la.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+          <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+          <a href="https://twitter.com/x" class="fa-brands fa-x-twitter" target="_blank"></a>
+          <a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; 2023 <b> Sistema de Registro de Datos de Recolección (SRDR)</b> - Todos los Derechos
+        Reservados.</small>
+    </div>
+  </footer>
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+</script>
+<script> document.addEventListener('DOMContentLoaded', function () {
+        M.AutoInit();
+    });
+</script>
+<!--Icons-->
+<script src="https://kit.fontawesome.com/26452ef41d.js" crossorigin="anonymous"></script>
+
+</html>
